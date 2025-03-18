@@ -169,8 +169,12 @@ footer {
 
 .footer-bottom li {
   display: inline-block;
-  padding: 0 1rem;
-  min-width: 25%;
+  padding: 0 0.5rem;
+  width: 25%;
+}
+
+.footer-bottom a {
+  color: white;
 }
 
 /* fine footer */
@@ -210,9 +214,27 @@ footer {
     min-width: calc(100% / 3);
     margin-bottom: 2rem;
   }
+
+  /* icons medium */
   .icons .container i {
     width: 15%;
     margin-left: 0.5rem;
+  }
+
+  /* img hidden medium */
+
+  .img-hidden .hidden {
+    display: block;
+  }
+  /* presentation medium */
+  .description img {
+    float: left;
+    max-width: 20rem;
+  }
+
+  /* footer medium */
+  .footer-bottom li {
+    width: auto;
   }
 }
 
