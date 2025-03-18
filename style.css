@@ -46,14 +46,13 @@ section {
 .row {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 2rem;
+  row-gap: 0rem;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
 
 [class^="col"] {
   padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 h1 {
@@ -74,7 +73,7 @@ p {
 
 .grigio {
   color: lightgray;
-  padding-top: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 .bolder {
@@ -98,7 +97,7 @@ header {
   width: calc(100%);
 }
 
-.how-to-do .container {
+.how-to-do .col-recipe {
   background-color: white;
 }
 
@@ -239,3 +238,23 @@ footer {
 }
 
 /* da 993px a infinito */
+
+@media screen and (min-width: 993px) {
+  .container {
+    width: 800px;
+  }
+
+  /* how to do large */
+
+  .how-to-do .row {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .how-to-do .col-recipe {
+    max-width: 30%;
+  }
+  .how-to-do .col-video {
+    max-width: 70%;
+  }
+}
