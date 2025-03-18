@@ -67,10 +67,14 @@ body {
 
 /* fine row-columns */
 
+/* General */
+
+.hidden {
+  display: none;
+}
+
 /* Responsive */
 
-/* da 0p a 767px */
+/* da 769px a 991px */
 
-/* da 768px a 991px */
-
-/* da 992px a infinito */
+/* da 993px a infinito */
