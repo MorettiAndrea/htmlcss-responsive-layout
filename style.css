@@ -38,6 +38,10 @@ h1 {
   text-align: center;
 }
 
+body {
+  background-color: gray;
+}
+
 /* row-columns */
 
 .row {
@@ -63,8 +67,10 @@ h1 {
 
 /* fine row-columns */
 
-/* GENERAL */
+/* Responsive */
 
 /* da 0p a 767px */
 
 /* da 768px a 991px */
+
+/* da 992px a infinito */
