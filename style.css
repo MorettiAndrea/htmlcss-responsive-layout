@@ -13,6 +13,8 @@ ul {
   list-style-type: none;
 }
 
+/* utility */
+
 .debug * {
   min-height: 100px;
   padding: 5px;
@@ -23,9 +25,7 @@ ul {
 .border {
   border: 2px dashed black;
 }
-/* /setup generali */
 
-/* utility */
 .container {
   max-width: 600px;
   margin-left: auto;
@@ -34,7 +34,7 @@ ul {
   padding-right: 0.5rem;
 }
 
-/* row-columns */
+/* Generali */
 
 .row {
   display: flex;
@@ -49,23 +49,29 @@ ul {
   padding-right: 0.5rem;
 }
 
-.col-1-1 {
+.col-video {
+  width: calc(100%);
+}
+.col-recipe {
   width: calc(100%);
 }
 
-.col-1-3 {
-  width: calc(100% / 3);
-}
-
-/* fine row-columns */
-
-/* Generali */
 body {
   background-color: gray;
 }
 
 section {
   margin-bottom: 3rem;
+}
+
+.header {
+  background-color: white;
+  min-height: 4rem;
+  padding-top: 1rem;
+}
+
+.how-to-do {
+  background-color: white;
 }
 
 h1 {
