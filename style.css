@@ -27,7 +27,7 @@ ul {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -36,6 +36,13 @@ ul {
 
 /* Generali */
 
+body {
+  background-color: gray;
+}
+
+section {
+  margin-bottom: 3rem;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -47,31 +54,6 @@ ul {
 [class^="col"] {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-}
-
-.col-video {
-  width: calc(100%);
-}
-.col-recipe {
-  width: calc(100%);
-}
-
-body {
-  background-color: gray;
-}
-
-section {
-  margin-bottom: 3rem;
-}
-
-.header {
-  background-color: white;
-  min-height: 4rem;
-  padding-top: 1rem;
-}
-
-.how-to-do {
-  background-color: white;
 }
 
 h1 {
@@ -86,6 +68,48 @@ p {
   line-height: 2rem;
 }
 
+/* header */
+
+header {
+  background-color: white;
+  min-height: 4rem;
+  padding-top: 1rem;
+}
+
+/* how-to-do */
+
+.col-video {
+  width: calc(100%);
+}
+.col-recipe {
+  width: calc(100%);
+}
+
+.how-to-do {
+  background-color: white;
+}
+
+.how-to-do li {
+  padding: 0.5rem 0;
+}
+
+/* fine how to do */
+
+/* icons */
+
+.icons .container {
+  display: flex;
+  justify-content: space-around;
+}
+.icons .container i {
+  background-color: white;
+  background-size: auto;
+  min-width: 3rem;
+  min-height: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 20px;
+}
 /* Responsive */
 
 /* da 769px a 991px */
