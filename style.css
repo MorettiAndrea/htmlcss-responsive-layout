@@ -34,14 +34,6 @@ ul {
   padding-right: 0.5rem;
 }
 
-h1 {
-  text-align: center;
-}
-
-body {
-  background-color: gray;
-}
-
 /* row-columns */
 
 .row {
@@ -67,10 +59,25 @@ body {
 
 /* fine row-columns */
 
-/* General */
+/* Generali */
+body {
+  background-color: gray;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
 
 .hidden {
   display: none;
+}
+
+p {
+  line-height: 2rem;
 }
 
 /* Responsive */
