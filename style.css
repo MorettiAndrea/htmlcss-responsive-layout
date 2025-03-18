@@ -68,6 +68,10 @@ p {
   line-height: 2rem;
 }
 
+.giallo {
+  color: #f69e3d;
+}
+
 /* header */
 
 header {
@@ -109,6 +113,22 @@ header {
   padding-top: 0.5rem;
   padding-left: 1rem;
   border-radius: 20px;
+}
+
+/* presentation */
+
+.giallo {
+  margin-bottom: 1rem;
+}
+
+.description img {
+  max-width: 70%;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.3rem;
 }
 /* Responsive */
 
