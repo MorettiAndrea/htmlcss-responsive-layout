@@ -37,11 +37,12 @@ ul {
 /* Generali */
 
 body {
-  background-color: gray;
+  background-color: #f6f5f3;
+  max-height: 713px;
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .row {
   display: flex;
@@ -144,17 +145,11 @@ header {
 /* fine presentation */
 
 /* footer */
-
-footer .footer {
-  margin-bottom: 0;
+footer {
   background-color: #7c69a4;
+  margin-bottom: 500px;
   color: white;
   line-height: 2rem;
-}
-
-.footer .row {
-  flex-direction: column;
-  align-items: center;
 }
 
 .footer-top {
@@ -164,14 +159,12 @@ footer .footer {
 .footer-bottom ul {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
 }
 
 .footer-bottom li {
   display: inline-block;
-  padding: 0 0.5rem;
-  width: 25%;
+  padding: 0 1.5rem;
 }
 
 .footer-bottom a {
@@ -290,4 +283,20 @@ footer .footer {
   /* fine icons large */
 
   /* footer large */
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0.5rem;
+  }
+
+  .footer li {
+    max-width: none;
+    padding-left: 5px;
+  }
+
+  .footer-top {
+    text-align: left;
+  }
 }
