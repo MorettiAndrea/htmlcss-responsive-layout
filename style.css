@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
 }
 
 img {
@@ -58,10 +58,13 @@ section {
 
 h1 {
   text-align: center;
+  font-family: "Nerko One", sans-serif;
+  font-size: 5rem;
 }
 
 .hidden {
   display: none;
+  color: black;
 }
 
 p {
@@ -124,6 +127,25 @@ header {
   border-radius: 20px;
 }
 
+.fa-facebook {
+  color: #3e91f5;
+}
+
+.fa-twitter {
+  color: #009eff;
+}
+.fa-instagram {
+  color: #f4b6ae;
+}
+
+.fa-pinterest {
+  color: #e6272f;
+}
+
+.fa-youtube {
+  color: #e62237;
+}
+
 /* fine icons */
 
 /* presentation */
@@ -183,6 +205,10 @@ footer {
   }
 
   /* how-to-do  medium */
+  header {
+    padding: 1rem;
+    padding-top: 1rem;
+  }
 
   h1 {
     text-align: left;
